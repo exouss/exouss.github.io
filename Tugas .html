@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi</title>
+</head>
+<body>
+    <h2>Form Registrasi</h2>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Biodata</legend>
+            <p>Nama: <input type="text" name="nama" required></p>
+            <p>NIM: <input type="text" name="nim" required></p>
+            <p>Tanggal Lahir: 
+                <select name="tanggal">
+                    <option>01</option>
+                    <option>02</option>
+                    <option>03</option>
+                </select>
+                <select name="bulan">
+                    <option>Januari</option>
+                    <option>Februari</option>
+                    <option>Maret</option>
+                </select>
+                <select name="tahun">
+                    <option>1990</option>
+                    <option>1991</option>
+                    <option>1992</option>
+                </select>
+            </p>
+            <p>Alamat: <textarea name="alamat" rows="4" cols="30" required></textarea></p>
+            <p>Jenis Kelamin:
+                <input type="radio" name="gender" value="Laki-laki" required> Laki-laki
+                <input type="radio" name="gender" value="Perempuan" required> Perempuan
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>User Account</legend>
+            <p>Username: <input type="text" name="username" required></p>
+            <p>Email: <input type="email" name="email" required></p>
+            <p>Password: <input type="password" name="password" required></p>
+            <p>Ulangi Password: <input type="password" name="confirm_password" required></p>
+        </fieldset>
+
+        <fieldset>
+            <legend>Resolusi Tahun Ini</legend>
+            <p><input type="checkbox" name="resolusi1" value="Menguasai HTML"> Menguasai HTML</p>
+            <p><input type="checkbox" name="resolusi2" value="Paham CSS"> Paham CSS</p>
+            <p><input type="checkbox" name="resolusi3" value="Mastering PHP"> Mastering PHP</p>
+        </fieldset>
+
+        <p><input type="submit" value="Kirim Data"></p>
+    </form>
+</body>
+</html>
