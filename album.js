@@ -12,7 +12,7 @@ new Vue({
           isOpen: false,
         },
         {
-          img1: "images/cat cute.jpg",
+          img1: "images/zba4.jpg",
           img2: "images/cat cute 2.jpg",
           img3: "images/cat cute 3.jpg",
           title: "CUTE",
@@ -59,3 +59,4 @@ new Vue({
     },
   },
 });
+
