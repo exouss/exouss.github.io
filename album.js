@@ -5,9 +5,9 @@ new Vue({
       isOpenedTop: true,
       items: [
         {
-          img1: "images/cat couple.jpg",
-          img2: "images/cat couple2.jpg",
-          img3: "images/cat couple3.jpg",
+          img1: "images/zba.jpg",
+          img2: "images/zba2.jpg",
+          img3: "images/zba3.jpg",
           title: "COUPLE",
           isOpen: false,
         },
@@ -59,3 +59,4 @@ new Vue({
     },
   },
 });
+
