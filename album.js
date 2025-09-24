@@ -1,4 +1,4 @@
-new Vue({
+cute Vue({
   el: "#app",
   data() {
     return {
@@ -13,7 +13,7 @@ new Vue({
         },
         {
           img1: "images/zba4.jpg",
-          img2: "images/cat cute 2.jpg",
+          img2: "images/zba5.jpg",
           img3: "images/cat cute 3.jpg",
           title: "CUTE",
           isOpen: false,
@@ -59,4 +59,5 @@ new Vue({
     },
   },
 });
+
 
